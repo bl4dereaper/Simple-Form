@@ -9,7 +9,7 @@ body {
   }
   
   form {
-    background-color: rgb(170, 127, 127);
+    background-color: grey;
     border-style: solid;
     margin:50px;
   }
