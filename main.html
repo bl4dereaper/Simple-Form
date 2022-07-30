@@ -1,0 +1,81 @@
+<!DOCTYPe html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title" class="text-center">Let's work together!</h1>
+        <p id="description" class="description text-center">Get in touch:
+        </p>
+    </header>
+
+    <form id="survey-form">
+
+        <div class="form">
+            <div class="group">
+                <div class:"name">
+                    <label id="name-label" for="number">Name:
+                    <input type="text" name="name" id="name" placeholder="Name goes here" required>
+                </div>
+
+                <div class="form">
+                    <label id="email-label" for="number">Email:
+                    <input type="email" name="email" id="email" placeholder="Email goes here" required>
+                </div>
+
+
+                <label id="number-label" for="number">Phone:
+                <input type="number"" name=" age" id="number" min="111111111" max="999999999" pattern="[0-9]{3}) [0-9]{3} [0-9]{4}" maxlength="12" placeholder="123 456 7890" required>
+            </div>
+        </div>
+        <div class="group">
+            <p class:"phoneask">Phone type:
+                <select id="dropdown">
+                    <option>(select)</option>
+                    <option value="Cell">Cell</option>
+                    <option value="Home">Landline</option>
+                </select>
+            </p>
+        </div>
+        <div class="group">
+            <p> Which service are you interested in? </p>
+            <label><input name="radio" value="photography" type="radio" checked=""> Photography</label>
+            <label> <input name="radio" value="webdev" type="radio">
+                Front-End Web Dev
+            </label>
+        </div>
+        <div class="group">
+            <p>Which methods of contact are you confortable with?
+                          <span class=" selection">(Select all that apply)</span>
+            </p>
+
+            <label><input name=" check" value="Email" type="checkbox"> Email </label>
+            <label> <input name="check" value="voicecall" type="checkbox">
+                Voice call
+            </label>
+            <label> <input name="Three" value="two" type="checkbox">
+                Facetime/Zoom
+            </label>
+            <label> <input name="Four" value="two" type="checkbox">
+                SMS
+            </label>
+        </div>
+        <div class="group">
+            <p>Leave me a short message so I can get back to you.
+            <p class:"facetime">
+                If you would like to talk via Facetime, zoom, or some other method, please let me know here!
+            </p>
+            </p>
+            <textarea id="messages" class="message" placeholder="Let me know right here"></textarea>
+        </div>
+            <button type="submit" id="submit" class="submit-button">
+                Submit
+            </button>
+    </form>
+
+</body>
+
+</html>

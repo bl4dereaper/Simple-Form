@@ -1,0 +1,59 @@
+body {
+    background-color: blue;
+    font-family: 'Didot', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1;
+    color: black;
+    margin: auto;
+  }
+  
+  form {
+    background-color: grey;
+    border-style: solid;
+    margin:50px;
+  }
+  
+  p {
+    font-size: 15;
+  }
+  
+  h1,
+  p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .group {
+  text-align: center;
+  
+  }
+  
+  button {
+    margin: 25px;
+    height: 30;
+    width: 100;
+    Background-color: Purple;
+    color: white;
+    text-align: center;
+  }
+  
+  textarea {
+    height: 75px;
+    width: 300px;
+  }
+  
+  header {
+    color: white;
+    padding: 25px;
+    margin-top:25px;
+  }
+  .description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
